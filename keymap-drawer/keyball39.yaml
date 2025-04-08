@@ -37,7 +37,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: BLUETOOTH}
   - {t: '$$mdi:keyboard-space$$', h: WIN_1}
   - {t: '[', s: '{'}
   WIN_1:
@@ -77,7 +77,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: \, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BLUETOOTH
   - {type: held}
   - {t: MAC, h: toggle}
   MAC:
@@ -157,8 +157,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   WIN_FN_MOUSE:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -198,7 +198,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - BLUETOOTH
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   MAC_1:
   - '0'
@@ -237,7 +237,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
   - {t: \, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BLUETOOTH
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: WIN, h: toggle}
   MAC_FN_MOUSE:
