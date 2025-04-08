@@ -81,7 +81,7 @@ layers:
   - {type: held}
   - {t: MAC, h: toggle}
   MAC:
-  - {t: '$$mdi:keyboard-tab$$', h: WIN}
+  - {t: '$$mdi:keyboard-tab$$', h: mac_mouse}
   - W
   - E
   - R
@@ -241,7 +241,7 @@ layers:
   - {type: held}
   - {t: WIN, h: toggle}
   mac_mouse:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - F1
   - F2
   - F3
