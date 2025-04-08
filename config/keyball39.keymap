@@ -115,10 +115,10 @@
         layer_1_mac {
             label = "MAC_1";
             bindings = <
-&kp NUMBER_0    &kp N1             &kp N2        &kp N3        &kp NUBS                            &kp BACKSPACE   &kp RG(BACKSPACE)  &kp UP_ARROW    &kp HOME         &kp END
-&kp ESCAPE      &kp NUMBER_4       &kp NUMBER_5  &kp N6        &kp GRAVE                           &kp LEFT_SHIFT  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp NON_US_BACKSLASH
-&kp LEFT_SHIFT  &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                           &kp LG(X)       &kp LG(C)          &kp CAPSLOCK    &kp LG(V)        &kp BACKSLASH
-&kp EQUAL       &kp RIGHT_BRACKET  &kp NUMBER_0  &kp LEFT_ALT  &kp LEFT_WIN  &kp BACKSLASH  &mo 3  &trans                                                              &tog 0
+&kp NUMBER_0    &kp N1             &kp N2        &kp N3        &kp GRAVE                                &kp BACKSPACE   &kp RG(BACKSPACE)  &kp UP_ARROW    &kp HOME         &kp END
+&kp ESCAPE      &kp NUMBER_4       &kp NUMBER_5  &kp N6        &kp RIGHT_BRACKET                        &kp LEFT_SHIFT  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp NON_US_BACKSLASH
+&kp LEFT_SHIFT  &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                                &kp LG(X)       &kp LG(C)          &kp CAPSLOCK    &kp LG(V)        &kp BACKSLASH
+&kp EQUAL       &kp RIGHT_BRACKET  &kp NUMBER_0  &kp LEFT_ALT  &kp LEFT_WIN       &kp BACKSLASH  &mo 3  &trans                                                              &to 0
             >;
         };
 
