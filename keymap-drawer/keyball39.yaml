@@ -81,7 +81,7 @@ layers:
   - {type: held}
   - {t: MAC, h: toggle}
   MAC:
-  - {t: '$$mdi:keyboard-tab$$', h: MAC_FN_MOUSE}
+  - {t: '$$mdi:keyboard-tab$$', h: WIN}
   - W
   - E
   - R
@@ -240,18 +240,18 @@ layers:
   - BLUETOOTH
   - {type: held}
   - {t: WIN, h: toggle}
-  MAC_FN_MOUSE:
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  mac_mouse:
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
   - F4
   - $$mdi:volume-high$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - Gui+Y
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+Gui+Z
+  - {t: '$$mdi:transfer$$', type: trans}
   - F5
   - F6
   - F7
@@ -260,23 +260,23 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-tab$$', h: MAC_1}
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F9
   - F10
   - F11
   - F12
   - MUTE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - BLUETOOTH
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
