@@ -205,7 +205,7 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - NUBS
+  - {t: '`', s: '~'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: 'Gui+$$mdi:backspace$$', type: backspace}
   - $$mdi:arrow-up-bold$$
@@ -215,7 +215,7 @@ layers:
   - '4'
   - '5'
   - {t: '6', s: ^}
-  - {t: '`', s: '~'}
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
