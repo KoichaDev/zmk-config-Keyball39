@@ -81,7 +81,7 @@ layers:
   - {type: held}
   - {t: MAC, h: toggle}
   MAC:
-  - {t: '$$mdi:keyboard-tab$$', h: mac_mouse}
+  - {t: '$$mdi:keyboard-tab$$', h: WIN_FN_MOUSE}
   - W
   - E
   - R
@@ -240,8 +240,8 @@ layers:
   - BLUETOOTH
   - {type: held}
   - {t: WIN, h: toggle}
-  mac_mouse:
-  - {type: held}
+  MAC_FN_MOUSE:
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -258,7 +258,7 @@ layers:
   - F8
   - $$mdi:volume-low$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-tab$$', h: MAC_1}
+  - {t: '$$mdi:keyboard-tab$$', h: MAC_FN_MOUSE}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

@@ -713,8 +713,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
-<a href="#mac_mouse">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">mac_mouse</tspan></text>
+<a href="#WIN_FN_MOUSE">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">WIN_FN_MO…</tspan></text>
 </a></g>
 <g transform="translate(84, 35)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1561,12 +1561,13 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2063)" class="layer-mac_mouse">
-<text x="0" y="28" class="label" id="mac_mouse">mac_mouse:</text>
+<g transform="translate(40, 2063)" class="layer-MAC_FN_MOUSE">
+<text x="0" y="28" class="label" id="MAC_FN_MOUSE">MAC_FN_MOUSE:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 49)" class="key held keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+<g transform="translate(28, 49)" class="key trans keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(84, 35)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1655,8 +1656,8 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-tab"/>
-<a href="#MAC_1">
-<text x="0" y="24" class="key hold layer-activator">MAC_1</text>
+<a href="#MAC_FN_MOUSE">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">MAC_FN_MO…</tspan></text>
 </a></g>
 <g transform="translate(672, 91)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
