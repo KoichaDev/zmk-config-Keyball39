@@ -258,7 +258,7 @@ layers:
   - F8
   - $$mdi:volume-low$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-tab$$', h: MAC_FN_MOUSE}
+  - {t: '$$mdi:keyboard-tab$$', h: MAC_1}
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
